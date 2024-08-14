@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Experience from "./experience";
+import Like from "./like";
 
 
 export default function Body() {
@@ -12,7 +13,7 @@ export default function Body() {
           Share your feedback
         </h1>
         <Experience />
- 
+        <Like />
       </div>
     </main>
   );
